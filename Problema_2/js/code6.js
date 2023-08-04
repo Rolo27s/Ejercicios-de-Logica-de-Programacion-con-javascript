@@ -2,7 +2,7 @@
 
 const countWord = (str = "", wTS = "") => {
     let rStr = str.trim();
-    let rWTS = wTS.trim();
+    
     if(rStr === "") {
         console.warn("Text not found");
     } else if (/\d+/.test(rStr)) {

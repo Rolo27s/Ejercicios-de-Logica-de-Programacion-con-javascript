@@ -1,0 +1,12 @@
+body {
+    background-color: #222;
+}
+h1 {
+    color: #bdce90;
+}
+li {
+    font-family: 'Arial';
+    margin-bottom: .75em;
+    font-weight: 600;
+    color: #dddddd;
+}
