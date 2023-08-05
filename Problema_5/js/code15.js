@@ -55,3 +55,4 @@ conversor(101110, 2)
 conversor(10, 10);
 
 // Tarde muchísimo en terminar esta prueba. Debería repetirla.
+// Buaah trucazo. El metodo parseInt tiene dos posibles entradas, el primero es el numero a convertir y el segundo es la base a la cual se quiere convertir. Fin en 2 segundos.

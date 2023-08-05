@@ -3,6 +3,7 @@
 const offer = (price, discount) => {
     // Control de entrada numerico
     const regExp = /^-?\d+(\.\d+)?$/
+    // En lugar de usar una regExp como esta, puedo usar typeof price === "number"
 
     if (regExp.test(price) && price > 0) {
         console.info(`Correct Price: ${price}`);
@@ -24,3 +25,18 @@ const offer = (price, discount) => {
 }
 
 offer(1000,20);
+
+// Deberia repasar el typeof para tener mas claro que opciones tengo
+/* 
+typeof
+Type	    Result
+Undefined	"undefined"
+Null	    "object" (reason)
+Boolean	    "boolean"
+Number	    "number"
+BigInt	    "bigint"
+String	    "string"
+Symbol	    "symbol"
+Function    (implements [[Call]] in ECMA-262 terms; classes are functions as well)	"function"
+Any other object	"object"
+*/
