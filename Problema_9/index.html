@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../style.css" />
+        <title>Problemas_9</title>
+    </head>
+    <body>
+        <h1>Problemas_9</h1>
+
+        <h2>Programa una clase llamada Pelicula.</h2>
+
+        <ul>
+            <h3>La clase recibirá un objeto al momento de instanciarse con los siguentes datos</h3>
+            <li>id de la película en IMDB</li>
+            <li>titulo</li>
+            <li>director</li>
+            <li>año de estreno</li>
+            <li>país o países de origen</li>
+            <li>géneros</li>
+            <li>calificación en IMBD</li>
+        </ul>
+
+        <br />
+
+        <ul class="validaciones">
+            <h3>Validaciones de atributos</h3>
+            <li>Todos los datos del objeto son obligatorios.</li>
+            <li>
+                Valida que el id IMDB tenga 9 caracteres, los primeros 2 sean letras y los 7 restantes números. Ej:
+                AB1234567
+            </li>
+            <li>Valida que el título no rebase los 100 caracteres.</li>
+            <li>Valida que el director no rebase los 50 caracteres.</li>
+            <li>Valida que el año de estreno sea un número entero de 4 dígitos.</li>
+            <li>Valida que el país o paises sea introducidos en forma de arreglo.</li>
+            <li>Valida que los géneros sean introducidos en forma de arreglo.</li>
+            <li>
+                Valida que los géneros introducidos esten dentro de los <b>géneros aceptados*</b>. <br /><br />
+                <span>
+                    * Géneros Aceptados: Action, Adult, Adventure, Animation, Biography, Comedy, Crime, Documentary
+                    ,Drama, Family, Fantasy, Film Noir, Game-Show, History, Horror, Musical, Music, Mystery, News,
+                    Reality-TV, Romance, Sci-Fi, Short, Sport, Talk-Show, Thriller, War, Western.
+                </span>
+            </li>
+        </ul>
+
+        <br>
+
+        <ul>
+            <h3>Validaciones de métodos</h3>
+            <li>Crea un método estático que devuelva los géneros aceptados*</li>
+            <li>Valida que la calificación sea un número entre 0 y 10 pudiendo ser decimal de una posición.</li>
+            <li>Crea un método que devuelva toda la ficha técnica de la película.</li>
+            <li>
+                Apartir de un arreglo con la información de 3 películas genera 3 instancias de la clase de forma
+                automatizada e imprime la ficha técnica de cada película.
+            </li>
+        </ul>
+
+        <!-- <script src="./code27.js"></script> -->
+    </body>
+</html>

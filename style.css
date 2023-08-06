@@ -1,12 +1,22 @@
 body {
     background-color: #222;
 }
-h1 {
+
+h1, h2, h3 {
     color: #bdce90;
 }
-li {
+
+p, li {
     font-family: 'Arial';
     margin-bottom: .75em;
     font-weight: 600;
     color: #dddddd;
+}
+
+p {
+    text-decoration: underline;
+}
+
+ul.validaciones {
+    list-style-type: "- ";
 }
